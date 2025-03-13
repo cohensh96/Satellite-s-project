@@ -1,0 +1,28 @@
+22/02/2025-21:31:08::main::App Started
+22/02/2025-21:31:08::main::App Version: 1.0.7
+22/02/2025-21:31:08::AppConfigurationManager::Error parsing Config INI file!
+22/02/2025-21:31:08::AppConfigurationManager::Working with default configurations!
+22/02/2025-21:31:08::main::Factory created
+22/02/2025-21:31:08::TCPClient::ConnectToServer: socket created
+22/02/2025-21:31:08::TCPClient::ConnectToServer: Connected to server
+22/02/2025-21:31:08::MainProcess::Staring MainProcess
+22/02/2025-21:31:39::MainProcess::Test Received. Staring test - 5
+22/02/2025-21:31:39::Lab::Test Data Generated
+22/02/2025-21:31:39::CommManager::SendTestResults::Results Message sent. For test - 5
+22/02/2025-21:31:39::MainProcess::Test 5 Completed
+22/02/2025-21:31:44::MainProcess::Test Received. Staring test - 6
+22/02/2025-21:31:44::Lab::Test Data Generated
+22/02/2025-21:31:44::CommManager::SendTestResults::Results Message sent. For test - 6
+22/02/2025-21:31:44::MainProcess::Test 6 Completed
+22/02/2025-21:31:49::MainProcess::Test Received. Staring test - 7
+22/02/2025-21:31:49::Lab::Test Data Generated
+22/02/2025-21:31:49::CommManager::SendTestResults::Results Message sent. For test - 7
+22/02/2025-21:31:49::MainProcess::Test 7 Completed
+22/02/2025-21:31:54::MainProcess::Test Received. Staring test - 8
+22/02/2025-21:31:54::Lab::Test Data Generated
+22/02/2025-21:31:54::CommManager::SendTestResults::Results Message sent. For test - 8
+22/02/2025-21:31:54::MainProcess::Test 8 Completed
+22/02/2025-21:31:59::MainProcess::Test Received. Staring test - 9
+22/02/2025-21:31:59::Lab::Test Data Generated
+22/02/2025-21:31:59::CommManager::SendTestResults::Results Message sent. For test - 9
+22/02/2025-21:31:59::MainProcess::Test 9 Completed

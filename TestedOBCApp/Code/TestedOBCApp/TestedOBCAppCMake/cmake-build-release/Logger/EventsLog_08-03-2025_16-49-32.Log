@@ -1,0 +1,256 @@
+08/03/2025-16:49:32::main::App Started
+08/03/2025-16:49:32::main::App Version: 1.0.7
+08/03/2025-16:49:32::AppConfigurationManager::Error parsing Config INI file!
+08/03/2025-16:49:32::AppConfigurationManager::Working with default configurations!
+08/03/2025-16:49:32::main::Factory created
+08/03/2025-16:49:32::TCPClient::ConnectToServer: socket created
+08/03/2025-16:49:32::TCPClient::ConnectToServer: Connected to server
+08/03/2025-16:49:32::MainProcess::Staring MainProcess
+08/03/2025-16:49:33::MainProcess::Test Received. Staring test - 365
+08/03/2025-16:49:33::Lab::Test Data Generated
+08/03/2025-16:49:33::CommManager::SendTestResults::Results Message sent. For test - 365
+08/03/2025-16:49:33::MainProcess::Test 365 Completed
+08/03/2025-16:49:34::MainProcess::Test Received. Staring test - 366
+08/03/2025-16:49:34::Lab::Test Data Generated
+08/03/2025-16:49:34::CommManager::SendTestResults::Results Message sent. For test - 366
+08/03/2025-16:49:34::MainProcess::Test 366 Completed
+08/03/2025-16:49:36::MainProcess::Test Received. Staring test - 367
+08/03/2025-16:49:36::Lab::Test Data Generated
+08/03/2025-16:49:36::CommManager::SendTestResults::Results Message sent. For test - 367
+08/03/2025-16:49:36::MainProcess::Test 367 Completed
+08/03/2025-16:49:37::MainProcess::Test Received. Staring test - 368
+08/03/2025-16:49:37::Lab::Test Data Generated
+08/03/2025-16:49:37::CommManager::SendTestResults::Results Message sent. For test - 368
+08/03/2025-16:49:37::MainProcess::Test 368 Completed
+08/03/2025-16:49:39::MainProcess::Test Received. Staring test - 369
+08/03/2025-16:49:39::Lab::Test Data Generated
+08/03/2025-16:49:39::CommManager::SendTestResults::Results Message sent. For test - 369
+08/03/2025-16:49:39::MainProcess::Test 369 Completed
+08/03/2025-16:49:41::MainProcess::Test Received. Staring test - 370
+08/03/2025-16:49:41::Lab::Test Data Generated
+08/03/2025-16:49:41::CommManager::SendTestResults::Results Message sent. For test - 370
+08/03/2025-16:49:41::MainProcess::Test 370 Completed
+08/03/2025-16:49:42::MainProcess::Test Received. Staring test - 371
+08/03/2025-16:49:42::Lab::Test Data Generated
+08/03/2025-16:49:42::CommManager::SendTestResults::Results Message sent. For test - 371
+08/03/2025-16:49:42::MainProcess::Test 371 Completed
+08/03/2025-16:49:44::MainProcess::Test Received. Staring test - 372
+08/03/2025-16:49:44::Lab::Test Data Generated
+08/03/2025-16:49:44::CommManager::SendTestResults::Results Message sent. For test - 372
+08/03/2025-16:49:44::MainProcess::Test 372 Completed
+08/03/2025-16:49:45::MainProcess::Test Received. Staring test - 373
+08/03/2025-16:49:45::Lab::Test Data Generated
+08/03/2025-16:49:45::CommManager::SendTestResults::Results Message sent. For test - 373
+08/03/2025-16:49:45::MainProcess::Test 373 Completed
+08/03/2025-16:49:47::MainProcess::Test Received. Staring test - 374
+08/03/2025-16:49:47::Lab::Test Data Generated
+08/03/2025-16:49:47::CommManager::SendTestResults::Results Message sent. For test - 374
+08/03/2025-16:49:47::MainProcess::Test 374 Completed
+08/03/2025-16:49:49::MainProcess::Test Received. Staring test - 375
+08/03/2025-16:49:49::Lab::Test Data Generated
+08/03/2025-16:49:49::CommManager::SendTestResults::Results Message sent. For test - 375
+08/03/2025-16:49:49::MainProcess::Test 375 Completed
+08/03/2025-16:49:50::MainProcess::Test Received. Staring test - 376
+08/03/2025-16:49:50::Lab::Test Data Generated
+08/03/2025-16:49:50::CommManager::SendTestResults::Results Message sent. For test - 376
+08/03/2025-16:49:50::MainProcess::Test 376 Completed
+08/03/2025-16:49:52::MainProcess::Test Received. Staring test - 377
+08/03/2025-16:49:52::Lab::Test Data Generated
+08/03/2025-16:49:52::CommManager::SendTestResults::Results Message sent. For test - 377
+08/03/2025-16:49:52::MainProcess::Test 377 Completed
+08/03/2025-16:49:53::MainProcess::Test Received. Staring test - 378
+08/03/2025-16:49:53::Lab::Test Data Generated
+08/03/2025-16:49:53::CommManager::SendTestResults::Results Message sent. For test - 378
+08/03/2025-16:49:53::MainProcess::Test 378 Completed
+08/03/2025-16:49:55::MainProcess::Test Received. Staring test - 379
+08/03/2025-16:49:55::Lab::Test Data Generated
+08/03/2025-16:49:55::CommManager::SendTestResults::Results Message sent. For test - 379
+08/03/2025-16:49:55::MainProcess::Test 379 Completed
+08/03/2025-16:49:56::MainProcess::Test Received. Staring test - 380
+08/03/2025-16:49:56::Lab::Test Data Generated
+08/03/2025-16:49:56::CommManager::SendTestResults::Results Message sent. For test - 380
+08/03/2025-16:49:56::MainProcess::Test 380 Completed
+08/03/2025-16:49:58::MainProcess::Test Received. Staring test - 381
+08/03/2025-16:49:58::Lab::Test Data Generated
+08/03/2025-16:49:58::CommManager::SendTestResults::Results Message sent. For test - 381
+08/03/2025-16:49:58::MainProcess::Test 381 Completed
+08/03/2025-16:50:00::MainProcess::Test Received. Staring test - 382
+08/03/2025-16:50:00::Lab::Test Data Generated
+08/03/2025-16:50:00::CommManager::SendTestResults::Results Message sent. For test - 382
+08/03/2025-16:50:00::MainProcess::Test 382 Completed
+08/03/2025-16:50:01::MainProcess::Test Received. Staring test - 383
+08/03/2025-16:50:01::Lab::Test Data Generated
+08/03/2025-16:50:01::CommManager::SendTestResults::Results Message sent. For test - 383
+08/03/2025-16:50:01::MainProcess::Test 383 Completed
+08/03/2025-16:50:03::MainProcess::Test Received. Staring test - 384
+08/03/2025-16:50:03::Lab::Test Data Generated
+08/03/2025-16:50:03::CommManager::SendTestResults::Results Message sent. For test - 384
+08/03/2025-16:50:03::MainProcess::Test 384 Completed
+08/03/2025-16:50:04::MainProcess::Test Received. Staring test - 385
+08/03/2025-16:50:04::Lab::Test Data Generated
+08/03/2025-16:50:04::CommManager::SendTestResults::Results Message sent. For test - 385
+08/03/2025-16:50:04::MainProcess::Test 385 Completed
+08/03/2025-16:50:06::MainProcess::Test Received. Staring test - 386
+08/03/2025-16:50:06::Lab::Test Data Generated
+08/03/2025-16:50:06::CommManager::SendTestResults::Results Message sent. For test - 386
+08/03/2025-16:50:06::MainProcess::Test 386 Completed
+08/03/2025-16:50:08::MainProcess::Test Received. Staring test - 387
+08/03/2025-16:50:08::Lab::Test Data Generated
+08/03/2025-16:50:08::CommManager::SendTestResults::Results Message sent. For test - 387
+08/03/2025-16:50:08::MainProcess::Test 387 Completed
+08/03/2025-16:50:09::MainProcess::Test Received. Staring test - 388
+08/03/2025-16:50:09::Lab::Test Data Generated
+08/03/2025-16:50:09::CommManager::SendTestResults::Results Message sent. For test - 388
+08/03/2025-16:50:09::MainProcess::Test 388 Completed
+08/03/2025-16:50:11::MainProcess::Test Received. Staring test - 389
+08/03/2025-16:50:11::Lab::Test Data Generated
+08/03/2025-16:50:11::CommManager::SendTestResults::Results Message sent. For test - 389
+08/03/2025-16:50:11::MainProcess::Test 389 Completed
+08/03/2025-16:50:12::MainProcess::Test Received. Staring test - 390
+08/03/2025-16:50:12::Lab::Test Data Generated
+08/03/2025-16:50:12::CommManager::SendTestResults::Results Message sent. For test - 390
+08/03/2025-16:50:12::MainProcess::Test 390 Completed
+08/03/2025-16:50:14::MainProcess::Test Received. Staring test - 391
+08/03/2025-16:50:14::Lab::Test Data Generated
+08/03/2025-16:50:14::CommManager::SendTestResults::Results Message sent. For test - 391
+08/03/2025-16:50:14::MainProcess::Test 391 Completed
+08/03/2025-16:50:15::MainProcess::Test Received. Staring test - 392
+08/03/2025-16:50:15::Lab::Test Data Generated
+08/03/2025-16:50:15::CommManager::SendTestResults::Results Message sent. For test - 392
+08/03/2025-16:50:15::MainProcess::Test 392 Completed
+08/03/2025-16:50:17::MainProcess::Test Received. Staring test - 393
+08/03/2025-16:50:17::Lab::Test Data Generated
+08/03/2025-16:50:17::CommManager::SendTestResults::Results Message sent. For test - 393
+08/03/2025-16:50:17::MainProcess::Test 393 Completed
+08/03/2025-16:50:19::MainProcess::Test Received. Staring test - 394
+08/03/2025-16:50:19::Lab::Test Data Generated
+08/03/2025-16:50:19::CommManager::SendTestResults::Results Message sent. For test - 394
+08/03/2025-16:50:19::MainProcess::Test 394 Completed
+08/03/2025-16:50:20::MainProcess::Test Received. Staring test - 395
+08/03/2025-16:50:20::Lab::Test Data Generated
+08/03/2025-16:50:20::CommManager::SendTestResults::Results Message sent. For test - 395
+08/03/2025-16:50:20::MainProcess::Test 395 Completed
+08/03/2025-16:50:22::MainProcess::Test Received. Staring test - 396
+08/03/2025-16:50:22::Lab::Test Data Generated
+08/03/2025-16:50:22::CommManager::SendTestResults::Results Message sent. For test - 396
+08/03/2025-16:50:22::MainProcess::Test 396 Completed
+08/03/2025-16:50:23::MainProcess::Test Received. Staring test - 397
+08/03/2025-16:50:23::Lab::Test Data Generated
+08/03/2025-16:50:23::CommManager::SendTestResults::Results Message sent. For test - 397
+08/03/2025-16:50:23::MainProcess::Test 397 Completed
+08/03/2025-16:50:25::MainProcess::Test Received. Staring test - 398
+08/03/2025-16:50:25::Lab::Test Data Generated
+08/03/2025-16:50:25::CommManager::SendTestResults::Results Message sent. For test - 398
+08/03/2025-16:50:25::MainProcess::Test 398 Completed
+08/03/2025-16:50:26::MainProcess::Test Received. Staring test - 399
+08/03/2025-16:50:26::Lab::Test Data Generated
+08/03/2025-16:50:26::CommManager::SendTestResults::Results Message sent. For test - 399
+08/03/2025-16:50:26::MainProcess::Test 399 Completed
+08/03/2025-16:50:28::MainProcess::Test Received. Staring test - 400
+08/03/2025-16:50:28::Lab::Test Data Generated
+08/03/2025-16:50:28::CommManager::SendTestResults::Results Message sent. For test - 400
+08/03/2025-16:50:28::MainProcess::Test 400 Completed
+08/03/2025-16:50:30::MainProcess::Test Received. Staring test - 401
+08/03/2025-16:50:30::Lab::Test Data Generated
+08/03/2025-16:50:30::CommManager::SendTestResults::Results Message sent. For test - 401
+08/03/2025-16:50:30::MainProcess::Test 401 Completed
+08/03/2025-16:50:31::MainProcess::Test Received. Staring test - 402
+08/03/2025-16:50:31::Lab::Test Data Generated
+08/03/2025-16:50:31::CommManager::SendTestResults::Results Message sent. For test - 402
+08/03/2025-16:50:31::MainProcess::Test 402 Completed
+08/03/2025-16:50:33::MainProcess::Test Received. Staring test - 403
+08/03/2025-16:50:33::Lab::Test Data Generated
+08/03/2025-16:50:33::CommManager::SendTestResults::Results Message sent. For test - 403
+08/03/2025-16:50:33::MainProcess::Test 403 Completed
+08/03/2025-16:50:34::MainProcess::Test Received. Staring test - 404
+08/03/2025-16:50:34::Lab::Test Data Generated
+08/03/2025-16:50:34::CommManager::SendTestResults::Results Message sent. For test - 404
+08/03/2025-16:50:34::MainProcess::Test 404 Completed
+08/03/2025-16:50:36::MainProcess::Test Received. Staring test - 405
+08/03/2025-16:50:36::Lab::Test Data Generated
+08/03/2025-16:50:36::CommManager::SendTestResults::Results Message sent. For test - 405
+08/03/2025-16:50:36::MainProcess::Test 405 Completed
+08/03/2025-16:50:38::MainProcess::Test Received. Staring test - 406
+08/03/2025-16:50:38::Lab::Test Data Generated
+08/03/2025-16:50:38::CommManager::SendTestResults::Results Message sent. For test - 406
+08/03/2025-16:50:38::MainProcess::Test 406 Completed
+08/03/2025-16:50:39::MainProcess::Test Received. Staring test - 407
+08/03/2025-16:50:39::Lab::Test Data Generated
+08/03/2025-16:50:39::CommManager::SendTestResults::Results Message sent. For test - 407
+08/03/2025-16:50:39::MainProcess::Test 407 Completed
+08/03/2025-16:50:41::MainProcess::Test Received. Staring test - 408
+08/03/2025-16:50:41::Lab::Test Data Generated
+08/03/2025-16:50:41::CommManager::SendTestResults::Results Message sent. For test - 408
+08/03/2025-16:50:41::MainProcess::Test 408 Completed
+08/03/2025-16:50:42::MainProcess::Test Received. Staring test - 409
+08/03/2025-16:50:42::Lab::Test Data Generated
+08/03/2025-16:50:42::CommManager::SendTestResults::Results Message sent. For test - 409
+08/03/2025-16:50:42::MainProcess::Test 409 Completed
+08/03/2025-16:50:44::MainProcess::Test Received. Staring test - 410
+08/03/2025-16:50:44::Lab::Test Data Generated
+08/03/2025-16:50:44::CommManager::SendTestResults::Results Message sent. For test - 410
+08/03/2025-16:50:44::MainProcess::Test 410 Completed
+08/03/2025-16:50:45::MainProcess::Test Received. Staring test - 411
+08/03/2025-16:50:45::Lab::Test Data Generated
+08/03/2025-16:50:45::CommManager::SendTestResults::Results Message sent. For test - 411
+08/03/2025-16:50:45::MainProcess::Test 411 Completed
+08/03/2025-16:50:47::MainProcess::Test Received. Staring test - 412
+08/03/2025-16:50:47::Lab::Test Data Generated
+08/03/2025-16:50:47::CommManager::SendTestResults::Results Message sent. For test - 412
+08/03/2025-16:50:47::MainProcess::Test 412 Completed
+08/03/2025-16:50:49::MainProcess::Test Received. Staring test - 413
+08/03/2025-16:50:49::Lab::Test Data Generated
+08/03/2025-16:50:49::CommManager::SendTestResults::Results Message sent. For test - 413
+08/03/2025-16:50:49::MainProcess::Test 413 Completed
+08/03/2025-16:50:50::MainProcess::Test Received. Staring test - 414
+08/03/2025-16:50:50::Lab::Test Data Generated
+08/03/2025-16:50:50::CommManager::SendTestResults::Results Message sent. For test - 414
+08/03/2025-16:50:50::MainProcess::Test 414 Completed
+08/03/2025-16:50:52::MainProcess::Test Received. Staring test - 415
+08/03/2025-16:50:52::Lab::Test Data Generated
+08/03/2025-16:50:52::CommManager::SendTestResults::Results Message sent. For test - 415
+08/03/2025-16:50:52::MainProcess::Test 415 Completed
+08/03/2025-16:50:53::MainProcess::Test Received. Staring test - 416
+08/03/2025-16:50:53::Lab::Test Data Generated
+08/03/2025-16:50:53::CommManager::SendTestResults::Results Message sent. For test - 416
+08/03/2025-16:50:53::MainProcess::Test 416 Completed
+08/03/2025-16:50:55::MainProcess::Test Received. Staring test - 417
+08/03/2025-16:50:55::Lab::Test Data Generated
+08/03/2025-16:50:55::CommManager::SendTestResults::Results Message sent. For test - 417
+08/03/2025-16:50:55::MainProcess::Test 417 Completed
+08/03/2025-16:50:57::MainProcess::Test Received. Staring test - 418
+08/03/2025-16:50:57::Lab::Test Data Generated
+08/03/2025-16:50:57::CommManager::SendTestResults::Results Message sent. For test - 418
+08/03/2025-16:50:57::MainProcess::Test 418 Completed
+08/03/2025-16:50:58::MainProcess::Test Received. Staring test - 419
+08/03/2025-16:50:58::Lab::Test Data Generated
+08/03/2025-16:50:58::CommManager::SendTestResults::Results Message sent. For test - 419
+08/03/2025-16:50:58::MainProcess::Test 419 Completed
+08/03/2025-16:51:00::MainProcess::Test Received. Staring test - 420
+08/03/2025-16:51:00::Lab::Test Data Generated
+08/03/2025-16:51:00::CommManager::SendTestResults::Results Message sent. For test - 420
+08/03/2025-16:51:00::MainProcess::Test 420 Completed
+08/03/2025-16:51:01::MainProcess::Test Received. Staring test - 421
+08/03/2025-16:51:01::Lab::Test Data Generated
+08/03/2025-16:51:01::CommManager::SendTestResults::Results Message sent. For test - 421
+08/03/2025-16:51:01::MainProcess::Test 421 Completed
+08/03/2025-16:51:03::MainProcess::Test Received. Staring test - 422
+08/03/2025-16:51:03::Lab::Test Data Generated
+08/03/2025-16:51:03::CommManager::SendTestResults::Results Message sent. For test - 422
+08/03/2025-16:51:03::MainProcess::Test 422 Completed
+08/03/2025-16:51:05::MainProcess::Test Received. Staring test - 423
+08/03/2025-16:51:05::Lab::Test Data Generated
+08/03/2025-16:51:05::CommManager::SendTestResults::Results Message sent. For test - 423
+08/03/2025-16:51:05::MainProcess::Test 423 Completed
+08/03/2025-16:51:06::MainProcess::Test Received. Staring test - 424
+08/03/2025-16:51:06::Lab::Test Data Generated
+08/03/2025-16:51:06::CommManager::SendTestResults::Results Message sent. For test - 424
+08/03/2025-16:51:06::MainProcess::Test 424 Completed
+08/03/2025-16:51:08::MainProcess::Test Received. Staring test - 425
+08/03/2025-16:51:08::Lab::Test Data Generated
+08/03/2025-16:51:08::CommManager::SendTestResults::Results Message sent. For test - 425
+08/03/2025-16:51:08::MainProcess::Test 425 Completed
+08/03/2025-16:51:09::MainProcess::Test Received. Staring test - 426
+08/03/2025-16:51:09::Lab::Test Data Generated
+08/03/2025-16:51:09::CommManager::SendTestResults::Results Message sent. For test - 426
+08/03/2025-16:51:09::MainProcess::Test 426 Completed

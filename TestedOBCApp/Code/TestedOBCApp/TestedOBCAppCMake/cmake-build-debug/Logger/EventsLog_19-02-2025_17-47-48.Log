@@ -1,0 +1,21 @@
+19/02/2025-17:47:48::main::App Started
+19/02/2025-17:47:48::main::App Version: 1.0.7
+19/02/2025-17:47:48::AppConfigurationManager::Error parsing Config INI file!
+19/02/2025-17:47:48::AppConfigurationManager::Working with default configurations!
+19/02/2025-17:47:48::main::Factory created
+19/02/2025-17:47:48::TCPClient::ConnectToServer: socket created
+19/02/2025-17:47:48::TCPClient::ConnectToServer: Connected to server
+19/02/2025-17:47:48::MainProcess::Staring MainProcess
+19/02/2025-17:48:18::MainProcess::Test Received. Staring test - 160
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::Lab::Test Data Generated
+19/02/2025-17:48:18::CommManager::SendTestResults::Results Message sent. For test - 160
+19/02/2025-17:48:18::MainProcess::Test 160 Completed

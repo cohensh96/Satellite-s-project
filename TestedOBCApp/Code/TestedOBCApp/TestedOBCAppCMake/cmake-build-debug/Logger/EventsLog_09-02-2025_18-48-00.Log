@@ -1,0 +1,21 @@
+09/02/2025-18:48:00::main::App Started
+09/02/2025-18:48:00::main::App Version: 1.0.7
+09/02/2025-18:48:00::AppConfigurationManager::CommChannelType: Tcp
+09/02/2025-18:48:00::AppConfigurationManager::TimerType: ChronoTimer
+09/02/2025-18:48:00::AppConfigurationManager::SourcePort: 8888
+09/02/2025-18:48:00::AppConfigurationManager::DestinationPort: 8889
+09/02/2025-18:48:00::AppConfigurationManager::LocalIpAddress: 10.0.0.41
+09/02/2025-18:48:00::AppConfigurationManager::DestIpAddress: 10.0.0.47
+09/02/2025-18:48:00::AppConfigurationManager::App Started
+09/02/2025-18:48:00::main::Factory created
+09/02/2025-18:48:00::TCPClient::ConnectToServer: Connected to server
+09/02/2025-18:48:00::MainProcess::Staring MainProcess
+09/02/2025-18:48:21::MainProcess::Test Received. Staring test - 1004
+09/02/2025-18:48:21::CommManager::SendTestResults::Results Message sent. For test - 1004
+09/02/2025-18:48:21::MainProcess::Test 1004 Completed
+09/02/2025-18:48:22::MainProcess::Test Received. Staring test - 1005
+09/02/2025-18:49:12::CommManager::SendTestResults::Results Message sent. For test - 1005
+09/02/2025-18:49:12::MainProcess::Test 1005 Completed
+09/02/2025-18:49:14::MainProcess::Test Received. Staring test - 1006
+09/02/2025-18:49:14::CommManager::SendTestResults::Results Message sent. For test - 1006
+09/02/2025-18:49:14::MainProcess::Test 1006 Completed

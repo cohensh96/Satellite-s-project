@@ -1,0 +1,151 @@
+26/02/2025-14:28:58::main::App Started
+26/02/2025-14:28:58::main::App Version: 1.0.7
+26/02/2025-14:28:58::AppConfigurationManager::Error parsing Config INI file!
+26/02/2025-14:28:58::AppConfigurationManager::Working with default configurations!
+26/02/2025-14:28:58::main::Factory created
+26/02/2025-14:28:58::TCPClient::ConnectToServer: socket created
+26/02/2025-14:28:58::TCPClient::ConnectToServer: Connected to server
+26/02/2025-14:28:58::MainProcess::Staring MainProcess
+26/02/2025-14:29:33::MainProcess::Test Received. Staring test - 13
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::Lab::Test Data Generated
+26/02/2025-14:29:33::CommManager::SendTestResults::Results Message sent. For test - 13
+26/02/2025-14:29:33::MainProcess::Test 13 Completed
+26/02/2025-14:29:40::MainProcess::Test Received. Staring test - 14
+26/02/2025-14:29:40::Lab::Test Data Generated
+26/02/2025-14:29:40::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::Lab::Test Data Generated
+26/02/2025-14:29:41::CommManager::SendTestResults::Results Message sent. For test - 14
+26/02/2025-14:29:41::MainProcess::Test 14 Completed
+26/02/2025-14:29:48::MainProcess::Test Received. Staring test - 15
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::Lab::Test Data Generated
+26/02/2025-14:29:48::CommManager::SendTestResults::Results Message sent. For test - 15
+26/02/2025-14:29:48::MainProcess::Test 15 Completed
+26/02/2025-14:29:55::MainProcess::Test Received. Staring test - 16
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::Lab::Test Data Generated
+26/02/2025-14:29:55::CommManager::SendTestResults::Results Message sent. For test - 16
+26/02/2025-14:29:55::MainProcess::Test 16 Completed
+26/02/2025-14:30:02::MainProcess::Test Received. Staring test - 17
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:02::Lab::Test Data Generated
+26/02/2025-14:30:03::CommManager::SendTestResults::Results Message sent. For test - 17
+26/02/2025-14:30:03::MainProcess::Test 17 Completed
+26/02/2025-14:30:10::MainProcess::Test Received. Staring test - 18
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::Lab::Test Data Generated
+26/02/2025-14:30:10::CommManager::SendTestResults::Results Message sent. For test - 18
+26/02/2025-14:30:10::MainProcess::Test 18 Completed
+26/02/2025-14:30:17::MainProcess::Test Received. Staring test - 19
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::Lab::Test Data Generated
+26/02/2025-14:30:17::CommManager::SendTestResults::Results Message sent. For test - 19
+26/02/2025-14:30:17::MainProcess::Test 19 Completed
+26/02/2025-14:30:24::MainProcess::Test Received. Staring test - 20
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:24::Lab::Test Data Generated
+26/02/2025-14:30:25::Lab::Test Data Generated
+26/02/2025-14:30:25::Lab::Test Data Generated
+26/02/2025-14:30:25::CommManager::SendTestResults::Results Message sent. For test - 20
+26/02/2025-14:30:25::MainProcess::Test 20 Completed
+26/02/2025-14:30:31::MainProcess::Test Received. Staring test - 21
+26/02/2025-14:30:31::Lab::Test Data Generated
+26/02/2025-14:30:31::Lab::Test Data Generated
+26/02/2025-14:30:31::Lab::Test Data Generated
+26/02/2025-14:30:31::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::Lab::Test Data Generated
+26/02/2025-14:30:32::CommManager::SendTestResults::Results Message sent. For test - 21
+26/02/2025-14:30:32::MainProcess::Test 21 Completed
+26/02/2025-14:30:38::MainProcess::Test Received. Staring test - 22
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::Lab::Test Data Generated
+26/02/2025-14:30:39::CommManager::SendTestResults::Results Message sent. For test - 22
+26/02/2025-14:30:39::MainProcess::Test 22 Completed
+26/02/2025-14:30:46::MainProcess::Test Received. Staring test - 23
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::Lab::Test Data Generated
+26/02/2025-14:30:46::CommManager::SendTestResults::Results Message sent. For test - 23
+26/02/2025-14:30:46::MainProcess::Test 23 Completed

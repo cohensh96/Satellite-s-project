@@ -1,0 +1,76 @@
+26/02/2025-14:01:22::main::App Started
+26/02/2025-14:01:22::main::App Version: 1.0.7
+26/02/2025-14:01:22::AppConfigurationManager::Error parsing Config INI file!
+26/02/2025-14:01:22::AppConfigurationManager::Working with default configurations!
+26/02/2025-14:01:22::main::Factory created
+26/02/2025-14:01:22::TCPClient::ConnectToServer: socket created
+26/02/2025-14:01:22::TCPClient::ConnectToServer: Connected to server
+26/02/2025-14:01:22::MainProcess::Staring MainProcess
+26/02/2025-14:01:37::MainProcess::Test Received. Staring test - 1
+26/02/2025-14:01:37::Lab::Test Data Generated
+26/02/2025-14:01:37::CommManager::SendTestResults::Results Message sent. For test - 1
+26/02/2025-14:01:37::MainProcess::Test 1 Completed
+26/02/2025-14:01:42::MainProcess::Test Received. Staring test - 2
+26/02/2025-14:01:42::Lab::Test Data Generated
+26/02/2025-14:01:42::CommManager::SendTestResults::Results Message sent. For test - 2
+26/02/2025-14:01:42::MainProcess::Test 2 Completed
+26/02/2025-14:01:48::MainProcess::Test Received. Staring test - 3
+26/02/2025-14:01:48::Lab::Test Data Generated
+26/02/2025-14:01:48::CommManager::SendTestResults::Results Message sent. For test - 3
+26/02/2025-14:01:48::MainProcess::Test 3 Completed
+26/02/2025-14:01:52::MainProcess::Test Received. Staring test - 4
+26/02/2025-14:01:52::Lab::Test Data Generated
+26/02/2025-14:01:52::CommManager::SendTestResults::Results Message sent. For test - 4
+26/02/2025-14:01:52::MainProcess::Test 4 Completed
+26/02/2025-14:01:57::MainProcess::Test Received. Staring test - 5
+26/02/2025-14:01:57::Lab::Test Data Generated
+26/02/2025-14:01:57::CommManager::SendTestResults::Results Message sent. For test - 5
+26/02/2025-14:01:57::MainProcess::Test 5 Completed
+26/02/2025-14:02:03::MainProcess::Test Received. Staring test - 6
+26/02/2025-14:02:03::Lab::Test Data Generated
+26/02/2025-14:02:03::CommManager::SendTestResults::Results Message sent. For test - 6
+26/02/2025-14:02:03::MainProcess::Test 6 Completed
+26/02/2025-14:02:08::MainProcess::Test Received. Staring test - 7
+26/02/2025-14:02:08::Lab::Test Data Generated
+26/02/2025-14:02:08::CommManager::SendTestResults::Results Message sent. For test - 7
+26/02/2025-14:02:08::MainProcess::Test 7 Completed
+26/02/2025-14:02:13::MainProcess::Test Received. Staring test - 8
+26/02/2025-14:02:13::Lab::Test Data Generated
+26/02/2025-14:02:13::CommManager::SendTestResults::Results Message sent. For test - 8
+26/02/2025-14:02:13::MainProcess::Test 8 Completed
+26/02/2025-14:02:18::MainProcess::Test Received. Staring test - 9
+26/02/2025-14:02:18::Lab::Test Data Generated
+26/02/2025-14:02:18::CommManager::SendTestResults::Results Message sent. For test - 9
+26/02/2025-14:02:18::MainProcess::Test 9 Completed
+26/02/2025-14:02:23::MainProcess::Test Received. Staring test - 10
+26/02/2025-14:02:23::Lab::Test Data Generated
+26/02/2025-14:02:23::CommManager::SendTestResults::Results Message sent. For test - 10
+26/02/2025-14:02:23::MainProcess::Test 10 Completed
+26/02/2025-14:02:28::MainProcess::Test Received. Staring test - 11
+26/02/2025-14:02:28::Lab::Test Data Generated
+26/02/2025-14:02:28::CommManager::SendTestResults::Results Message sent. For test - 11
+26/02/2025-14:02:28::MainProcess::Test 11 Completed
+26/02/2025-14:02:33::MainProcess::Test Received. Staring test - 12
+26/02/2025-14:02:33::Lab::Test Data Generated
+26/02/2025-14:02:33::CommManager::SendTestResults::Results Message sent. For test - 12
+26/02/2025-14:02:33::MainProcess::Test 12 Completed
+26/02/2025-14:02:38::MainProcess::Test Received. Staring test - 13
+26/02/2025-14:02:38::Lab::Test Data Generated
+26/02/2025-14:02:38::CommManager::SendTestResults::Results Message sent. For test - 13
+26/02/2025-14:02:38::MainProcess::Test 13 Completed
+26/02/2025-14:02:43::MainProcess::Test Received. Staring test - 14
+26/02/2025-14:02:43::Lab::Test Data Generated
+26/02/2025-14:02:43::CommManager::SendTestResults::Results Message sent. For test - 14
+26/02/2025-14:02:43::MainProcess::Test 14 Completed
+26/02/2025-14:02:48::MainProcess::Test Received. Staring test - 15
+26/02/2025-14:02:48::Lab::Test Data Generated
+26/02/2025-14:02:48::CommManager::SendTestResults::Results Message sent. For test - 15
+26/02/2025-14:02:48::MainProcess::Test 15 Completed
+26/02/2025-14:02:53::MainProcess::Test Received. Staring test - 16
+26/02/2025-14:02:53::Lab::Test Data Generated
+26/02/2025-14:02:53::CommManager::SendTestResults::Results Message sent. For test - 16
+26/02/2025-14:02:53::MainProcess::Test 16 Completed
+26/02/2025-14:02:59::MainProcess::Test Received. Staring test - 17
+26/02/2025-14:02:59::Lab::Test Data Generated
+26/02/2025-14:02:59::CommManager::SendTestResults::Results Message sent. For test - 17
+26/02/2025-14:02:59::MainProcess::Test 17 Completed

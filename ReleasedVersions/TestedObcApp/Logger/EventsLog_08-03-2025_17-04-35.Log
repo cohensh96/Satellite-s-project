@@ -1,0 +1,355 @@
+08/03/2025-17:04:35::main::App Started
+08/03/2025-17:04:35::main::App Version: 1.0.7
+08/03/2025-17:04:35::AppConfigurationManager::Error parsing Config INI file!
+08/03/2025-17:04:35::AppConfigurationManager::Working with default configurations!
+08/03/2025-17:04:35::main::Factory created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::Factory::Failed to create/open the socket
+08/03/2025-17:04:35::MainProcess::Staring MainProcess
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:35::TCPClient::ConnectToServer: Failed to connect => 111
+08/03/2025-17:04:35::TCPClient::ConnectToServer: socket created
+08/03/2025-17:04:36::TCPClient::ConnectToServer: Connected to server
+08/03/2025-17:05:09::MainProcess::Test Received. Staring test - 427
+08/03/2025-17:05:09::Lab::Test Data Generated
+08/03/2025-17:05:09::CommManager::SendTestResults::Results Message sent. For test - 427
+08/03/2025-17:05:09::MainProcess::Test 427 Completed
+08/03/2025-17:05:37::MainProcess::Test Received. Staring test - 428
+08/03/2025-17:05:37::Lab::Test Data Generated
+08/03/2025-17:05:37::CommManager::SendTestResults::Results Message sent. For test - 428
+08/03/2025-17:05:37::MainProcess::Test 428 Completed
+08/03/2025-17:05:39::MainProcess::Test Received. Staring test - 429
+08/03/2025-17:05:39::Lab::Test Data Generated
+08/03/2025-17:05:39::CommManager::SendTestResults::Results Message sent. For test - 429
+08/03/2025-17:05:39::MainProcess::Test 429 Completed
+08/03/2025-17:05:40::MainProcess::Test Received. Staring test - 430
+08/03/2025-17:05:40::Lab::Test Data Generated
+08/03/2025-17:05:40::CommManager::SendTestResults::Results Message sent. For test - 430
+08/03/2025-17:05:40::MainProcess::Test 430 Completed
+08/03/2025-17:05:42::MainProcess::Test Received. Staring test - 431
+08/03/2025-17:05:42::Lab::Test Data Generated
+08/03/2025-17:05:42::CommManager::SendTestResults::Results Message sent. For test - 431
+08/03/2025-17:05:42::MainProcess::Test 431 Completed
+08/03/2025-17:05:43::MainProcess::Test Received. Staring test - 432
+08/03/2025-17:05:43::Lab::Test Data Generated
+08/03/2025-17:05:43::CommManager::SendTestResults::Results Message sent. For test - 432
+08/03/2025-17:05:43::MainProcess::Test 432 Completed
+08/03/2025-17:05:45::MainProcess::Test Received. Staring test - 433
+08/03/2025-17:05:45::Lab::Test Data Generated
+08/03/2025-17:05:45::CommManager::SendTestResults::Results Message sent. For test - 433
+08/03/2025-17:05:45::MainProcess::Test 433 Completed
+08/03/2025-17:05:46::MainProcess::Test Received. Staring test - 434
+08/03/2025-17:05:46::Lab::Test Data Generated
+08/03/2025-17:05:46::CommManager::SendTestResults::Results Message sent. For test - 434
+08/03/2025-17:05:46::MainProcess::Test 434 Completed
+08/03/2025-17:05:48::MainProcess::Test Received. Staring test - 435
+08/03/2025-17:05:48::Lab::Test Data Generated
+08/03/2025-17:05:48::CommManager::SendTestResults::Results Message sent. For test - 435
+08/03/2025-17:05:48::MainProcess::Test 435 Completed
+08/03/2025-17:05:50::MainProcess::Test Received. Staring test - 436
+08/03/2025-17:05:50::Lab::Test Data Generated
+08/03/2025-17:05:50::CommManager::SendTestResults::Results Message sent. For test - 436
+08/03/2025-17:05:50::MainProcess::Test 436 Completed
+08/03/2025-17:05:51::MainProcess::Test Received. Staring test - 437
+08/03/2025-17:05:51::Lab::Test Data Generated
+08/03/2025-17:05:51::CommManager::SendTestResults::Results Message sent. For test - 437
+08/03/2025-17:05:51::MainProcess::Test 437 Completed
+08/03/2025-17:05:53::MainProcess::Test Received. Staring test - 438
+08/03/2025-17:05:53::Lab::Test Data Generated
+08/03/2025-17:05:53::CommManager::SendTestResults::Results Message sent. For test - 438
+08/03/2025-17:05:53::MainProcess::Test 438 Completed
+08/03/2025-17:05:54::MainProcess::Test Received. Staring test - 439
+08/03/2025-17:05:54::Lab::Test Data Generated
+08/03/2025-17:05:54::CommManager::SendTestResults::Results Message sent. For test - 439
+08/03/2025-17:05:54::MainProcess::Test 439 Completed
+08/03/2025-17:05:56::MainProcess::Test Received. Staring test - 440
+08/03/2025-17:05:56::Lab::Test Data Generated
+08/03/2025-17:05:56::CommManager::SendTestResults::Results Message sent. For test - 440
+08/03/2025-17:05:56::MainProcess::Test 440 Completed
+08/03/2025-17:05:58::MainProcess::Test Received. Staring test - 441
+08/03/2025-17:05:58::Lab::Test Data Generated
+08/03/2025-17:05:58::CommManager::SendTestResults::Results Message sent. For test - 441
+08/03/2025-17:05:58::MainProcess::Test 441 Completed
+08/03/2025-17:05:59::MainProcess::Test Received. Staring test - 442
+08/03/2025-17:05:59::Lab::Test Data Generated
+08/03/2025-17:05:59::CommManager::SendTestResults::Results Message sent. For test - 442
+08/03/2025-17:05:59::MainProcess::Test 442 Completed
+08/03/2025-17:06:00::MainProcess::Test Received. Staring test - 443
+08/03/2025-17:06:00::Lab::Test Data Generated
+08/03/2025-17:06:00::CommManager::SendTestResults::Results Message sent. For test - 443
+08/03/2025-17:06:00::MainProcess::Test 443 Completed
+08/03/2025-17:06:02::MainProcess::Test Received. Staring test - 444
+08/03/2025-17:06:02::Lab::Test Data Generated
+08/03/2025-17:06:02::CommManager::SendTestResults::Results Message sent. For test - 444
+08/03/2025-17:06:02::MainProcess::Test 444 Completed
+08/03/2025-17:06:03::MainProcess::Test Received. Staring test - 445
+08/03/2025-17:06:03::Lab::Test Data Generated
+08/03/2025-17:06:03::CommManager::SendTestResults::Results Message sent. For test - 445
+08/03/2025-17:06:03::MainProcess::Test 445 Completed
+08/03/2025-17:06:04::MainProcess::Test Received. Staring test - 446
+08/03/2025-17:06:04::Lab::Test Data Generated
+08/03/2025-17:06:04::CommManager::SendTestResults::Results Message sent. For test - 446
+08/03/2025-17:06:04::MainProcess::Test 446 Completed
+08/03/2025-17:06:06::MainProcess::Test Received. Staring test - 447
+08/03/2025-17:06:06::Lab::Test Data Generated
+08/03/2025-17:06:06::CommManager::SendTestResults::Results Message sent. For test - 447
+08/03/2025-17:06:06::MainProcess::Test 447 Completed
+08/03/2025-17:06:08::MainProcess::Test Received. Staring test - 448
+08/03/2025-17:06:08::Lab::Test Data Generated
+08/03/2025-17:06:08::CommManager::SendTestResults::Results Message sent. For test - 448
+08/03/2025-17:06:08::MainProcess::Test 448 Completed
+08/03/2025-17:06:09::MainProcess::Test Received. Staring test - 449
+08/03/2025-17:06:09::Lab::Test Data Generated
+08/03/2025-17:06:09::CommManager::SendTestResults::Results Message sent. For test - 449
+08/03/2025-17:06:09::MainProcess::Test 449 Completed
+08/03/2025-17:06:11::MainProcess::Test Received. Staring test - 450
+08/03/2025-17:06:11::Lab::Test Data Generated
+08/03/2025-17:06:11::CommManager::SendTestResults::Results Message sent. For test - 450
+08/03/2025-17:06:11::MainProcess::Test 450 Completed
+08/03/2025-17:06:12::MainProcess::Test Received. Staring test - 451
+08/03/2025-17:06:12::Lab::Test Data Generated
+08/03/2025-17:06:12::CommManager::SendTestResults::Results Message sent. For test - 451
+08/03/2025-17:06:12::MainProcess::Test 451 Completed
+08/03/2025-17:06:14::MainProcess::Test Received. Staring test - 452
+08/03/2025-17:06:14::Lab::Test Data Generated
+08/03/2025-17:06:14::CommManager::SendTestResults::Results Message sent. For test - 452
+08/03/2025-17:06:14::MainProcess::Test 452 Completed
+08/03/2025-17:06:15::MainProcess::Test Received. Staring test - 453
+08/03/2025-17:06:15::Lab::Test Data Generated
+08/03/2025-17:06:15::CommManager::SendTestResults::Results Message sent. For test - 453
+08/03/2025-17:06:15::MainProcess::Test 453 Completed
+08/03/2025-17:06:17::MainProcess::Test Received. Staring test - 454
+08/03/2025-17:06:17::Lab::Test Data Generated
+08/03/2025-17:06:17::CommManager::SendTestResults::Results Message sent. For test - 454
+08/03/2025-17:06:17::MainProcess::Test 454 Completed
+08/03/2025-17:06:19::MainProcess::Test Received. Staring test - 455
+08/03/2025-17:06:19::Lab::Test Data Generated
+08/03/2025-17:06:19::CommManager::SendTestResults::Results Message sent. For test - 455
+08/03/2025-17:06:19::MainProcess::Test 455 Completed
+08/03/2025-17:06:20::MainProcess::Test Received. Staring test - 456
+08/03/2025-17:06:20::Lab::Test Data Generated
+08/03/2025-17:06:20::CommManager::SendTestResults::Results Message sent. For test - 456
+08/03/2025-17:06:20::MainProcess::Test 456 Completed
+08/03/2025-17:06:22::MainProcess::Test Received. Staring test - 457
+08/03/2025-17:06:22::Lab::Test Data Generated
+08/03/2025-17:06:22::CommManager::SendTestResults::Results Message sent. For test - 457
+08/03/2025-17:06:22::MainProcess::Test 457 Completed
+08/03/2025-17:06:23::MainProcess::Test Received. Staring test - 458
+08/03/2025-17:06:23::Lab::Test Data Generated
+08/03/2025-17:06:23::CommManager::SendTestResults::Results Message sent. For test - 458
+08/03/2025-17:06:23::MainProcess::Test 458 Completed
+08/03/2025-17:06:25::MainProcess::Test Received. Staring test - 459
+08/03/2025-17:06:25::Lab::Test Data Generated
+08/03/2025-17:06:25::CommManager::SendTestResults::Results Message sent. For test - 459
+08/03/2025-17:06:25::MainProcess::Test 459 Completed
+08/03/2025-17:06:27::MainProcess::Test Received. Staring test - 460
+08/03/2025-17:06:27::Lab::Test Data Generated
+08/03/2025-17:06:27::CommManager::SendTestResults::Results Message sent. For test - 460
+08/03/2025-17:06:27::MainProcess::Test 460 Completed
+08/03/2025-17:06:28::MainProcess::Test Received. Staring test - 461
+08/03/2025-17:06:28::Lab::Test Data Generated
+08/03/2025-17:06:28::CommManager::SendTestResults::Results Message sent. For test - 461
+08/03/2025-17:06:28::MainProcess::Test 461 Completed
+08/03/2025-17:06:30::MainProcess::Test Received. Staring test - 462
+08/03/2025-17:06:30::Lab::Test Data Generated
+08/03/2025-17:06:30::CommManager::SendTestResults::Results Message sent. For test - 462
+08/03/2025-17:06:30::MainProcess::Test 462 Completed
+08/03/2025-17:06:31::MainProcess::Test Received. Staring test - 463
+08/03/2025-17:06:31::Lab::Test Data Generated
+08/03/2025-17:06:31::CommManager::SendTestResults::Results Message sent. For test - 463
+08/03/2025-17:06:31::MainProcess::Test 463 Completed
+08/03/2025-17:06:33::MainProcess::Test Received. Staring test - 464
+08/03/2025-17:06:33::Lab::Test Data Generated
+08/03/2025-17:06:33::CommManager::SendTestResults::Results Message sent. For test - 464
+08/03/2025-17:06:33::MainProcess::Test 464 Completed
+08/03/2025-17:06:34::MainProcess::Test Received. Staring test - 465
+08/03/2025-17:06:34::Lab::Test Data Generated
+08/03/2025-17:06:34::CommManager::SendTestResults::Results Message sent. For test - 465
+08/03/2025-17:06:34::MainProcess::Test 465 Completed
+08/03/2025-17:06:36::MainProcess::Test Received. Staring test - 466
+08/03/2025-17:06:36::Lab::Test Data Generated
+08/03/2025-17:06:36::CommManager::SendTestResults::Results Message sent. For test - 466
+08/03/2025-17:06:36::MainProcess::Test 466 Completed
+08/03/2025-17:06:37::MainProcess::Test Received. Staring test - 467
+08/03/2025-17:06:37::Lab::Test Data Generated
+08/03/2025-17:06:37::CommManager::SendTestResults::Results Message sent. For test - 467
+08/03/2025-17:06:37::MainProcess::Test 467 Completed
+08/03/2025-17:06:39::MainProcess::Test Received. Staring test - 468
+08/03/2025-17:06:39::Lab::Test Data Generated
+08/03/2025-17:06:39::CommManager::SendTestResults::Results Message sent. For test - 468
+08/03/2025-17:06:39::MainProcess::Test 468 Completed
+08/03/2025-17:06:40::MainProcess::Test Received. Staring test - 469
+08/03/2025-17:06:40::Lab::Test Data Generated
+08/03/2025-17:06:40::CommManager::SendTestResults::Results Message sent. For test - 469
+08/03/2025-17:06:40::MainProcess::Test 469 Completed
+08/03/2025-17:06:41::MainProcess::Test Received. Staring test - 470
+08/03/2025-17:06:41::Lab::Test Data Generated
+08/03/2025-17:06:41::CommManager::SendTestResults::Results Message sent. For test - 470
+08/03/2025-17:06:41::MainProcess::Test 470 Completed
+08/03/2025-17:06:42::MainProcess::Test Received. Staring test - 471
+08/03/2025-17:06:42::Lab::Test Data Generated
+08/03/2025-17:06:42::CommManager::SendTestResults::Results Message sent. For test - 471
+08/03/2025-17:06:42::MainProcess::Test 471 Completed
+08/03/2025-17:06:43::MainProcess::Test Received. Staring test - 472
+08/03/2025-17:06:43::Lab::Test Data Generated
+08/03/2025-17:06:43::CommManager::SendTestResults::Results Message sent. For test - 472
+08/03/2025-17:06:43::MainProcess::Test 472 Completed
+08/03/2025-17:06:44::MainProcess::Test Received. Staring test - 473
+08/03/2025-17:06:44::Lab::Test Data Generated
+08/03/2025-17:06:44::CommManager::SendTestResults::Results Message sent. For test - 473
+08/03/2025-17:06:44::MainProcess::Test 473 Completed
+08/03/2025-17:06:45::MainProcess::Test Received. Staring test - 474
+08/03/2025-17:06:45::Lab::Test Data Generated
+08/03/2025-17:06:45::CommManager::SendTestResults::Results Message sent. For test - 474
+08/03/2025-17:06:45::MainProcess::Test 474 Completed
+08/03/2025-17:06:47::MainProcess::Test Received. Staring test - 475
+08/03/2025-17:06:47::Lab::Test Data Generated
+08/03/2025-17:06:47::CommManager::SendTestResults::Results Message sent. For test - 475
+08/03/2025-17:06:47::MainProcess::Test 475 Completed
+08/03/2025-17:06:48::MainProcess::Test Received. Staring test - 476
+08/03/2025-17:06:48::Lab::Test Data Generated
+08/03/2025-17:06:48::CommManager::SendTestResults::Results Message sent. For test - 476
+08/03/2025-17:06:48::MainProcess::Test 476 Completed
+08/03/2025-17:06:49::MainProcess::Test Received. Staring test - 477
+08/03/2025-17:06:49::Lab::Test Data Generated
+08/03/2025-17:06:49::CommManager::SendTestResults::Results Message sent. For test - 477
+08/03/2025-17:06:49::MainProcess::Test 477 Completed
+08/03/2025-17:06:50::MainProcess::Test Received. Staring test - 478
+08/03/2025-17:06:50::Lab::Test Data Generated
+08/03/2025-17:06:50::CommManager::SendTestResults::Results Message sent. For test - 478
+08/03/2025-17:06:50::MainProcess::Test 478 Completed
+08/03/2025-17:06:51::MainProcess::Test Received. Staring test - 479
+08/03/2025-17:06:51::Lab::Test Data Generated
+08/03/2025-17:06:51::CommManager::SendTestResults::Results Message sent. For test - 479
+08/03/2025-17:06:51::MainProcess::Test 479 Completed
+08/03/2025-17:06:52::MainProcess::Test Received. Staring test - 480
+08/03/2025-17:06:52::Lab::Test Data Generated
+08/03/2025-17:06:52::CommManager::SendTestResults::Results Message sent. For test - 480
+08/03/2025-17:06:52::MainProcess::Test 480 Completed
+08/03/2025-17:06:53::MainProcess::Test Received. Staring test - 481
+08/03/2025-17:06:53::Lab::Test Data Generated
+08/03/2025-17:06:53::CommManager::SendTestResults::Results Message sent. For test - 481
+08/03/2025-17:06:53::MainProcess::Test 481 Completed
+08/03/2025-17:06:54::MainProcess::Test Received. Staring test - 482
+08/03/2025-17:06:54::Lab::Test Data Generated
+08/03/2025-17:06:54::CommManager::SendTestResults::Results Message sent. For test - 482
+08/03/2025-17:06:54::MainProcess::Test 482 Completed
+08/03/2025-17:06:55::MainProcess::Test Received. Staring test - 483
+08/03/2025-17:06:55::Lab::Test Data Generated
+08/03/2025-17:06:55::CommManager::SendTestResults::Results Message sent. For test - 483
+08/03/2025-17:06:55::MainProcess::Test 483 Completed
+08/03/2025-17:06:56::MainProcess::Test Received. Staring test - 484
+08/03/2025-17:06:56::Lab::Test Data Generated
+08/03/2025-17:06:56::CommManager::SendTestResults::Results Message sent. For test - 484
+08/03/2025-17:06:56::MainProcess::Test 484 Completed
+08/03/2025-17:06:57::MainProcess::Test Received. Staring test - 485
+08/03/2025-17:06:57::Lab::Test Data Generated
+08/03/2025-17:06:57::CommManager::SendTestResults::Results Message sent. For test - 485
+08/03/2025-17:06:57::MainProcess::Test 485 Completed
+08/03/2025-17:06:58::MainProcess::Test Received. Staring test - 486
+08/03/2025-17:06:58::Lab::Test Data Generated
+08/03/2025-17:06:58::CommManager::SendTestResults::Results Message sent. For test - 486
+08/03/2025-17:06:58::MainProcess::Test 486 Completed
+08/03/2025-17:06:59::MainProcess::Test Received. Staring test - 487
+08/03/2025-17:06:59::Lab::Test Data Generated
+08/03/2025-17:06:59::CommManager::SendTestResults::Results Message sent. For test - 487
+08/03/2025-17:06:59::MainProcess::Test 487 Completed
+08/03/2025-17:07:00::MainProcess::Test Received. Staring test - 488
+08/03/2025-17:07:00::Lab::Test Data Generated
+08/03/2025-17:07:00::CommManager::SendTestResults::Results Message sent. For test - 488
+08/03/2025-17:07:00::MainProcess::Test 488 Completed
+08/03/2025-17:07:01::MainProcess::Test Received. Staring test - 489
+08/03/2025-17:07:01::Lab::Test Data Generated
+08/03/2025-17:07:01::CommManager::SendTestResults::Results Message sent. For test - 489
+08/03/2025-17:07:01::MainProcess::Test 489 Completed
+08/03/2025-17:07:02::MainProcess::Test Received. Staring test - 490
+08/03/2025-17:07:02::Lab::Test Data Generated
+08/03/2025-17:07:02::CommManager::SendTestResults::Results Message sent. For test - 490
+08/03/2025-17:07:02::MainProcess::Test 490 Completed
