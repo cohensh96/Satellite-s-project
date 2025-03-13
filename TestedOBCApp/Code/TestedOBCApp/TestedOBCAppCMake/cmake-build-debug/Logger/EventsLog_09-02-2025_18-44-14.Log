@@ -1,0 +1,16 @@
+09/02/2025-18:44:14::main::App Started
+09/02/2025-18:44:14::main::App Version: 1.0.7
+09/02/2025-18:44:14::AppConfigurationManager::CommChannelType: Tcp
+09/02/2025-18:44:14::AppConfigurationManager::TimerType: ChronoTimer
+09/02/2025-18:44:14::AppConfigurationManager::SourcePort: 8888
+09/02/2025-18:44:14::AppConfigurationManager::DestinationPort: 8889
+09/02/2025-18:44:14::AppConfigurationManager::LocalIpAddress: 10.0.0.41
+09/02/2025-18:44:14::AppConfigurationManager::DestIpAddress: 10.0.0.47
+09/02/2025-18:44:14::AppConfigurationManager::App Started
+09/02/2025-18:44:14::main::Factory created
+09/02/2025-18:44:14::TCPClient::ConnectToServer: Connected to server
+09/02/2025-18:44:14::MainProcess::Staring MainProcess
+09/02/2025-18:44:31::MainProcess::Test Received. Staring test - 974
+09/02/2025-18:44:31::CommManager::SendTestResults::Results Message sent. For test - 974
+09/02/2025-18:44:31::MainProcess::Test 974 Completed
+09/02/2025-18:44:32::MainProcess::Test Received. Staring test - 975
