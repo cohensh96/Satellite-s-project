@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{a95028ed-5686-470f-87c2-4a4f46591bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{03ef35b8-b29f-46ed-b250-83faee85b9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\CommChannels">
+      <UniqueIdentifier>{08e0ffc6-950e-4f3f-8dfa-ca9f9d2f1df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Structures">
+      <UniqueIdentifier>{94592a5c-3159-4b1f-b81a-c95a39d1fd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lab">
+      <UniqueIdentifier>{18b02c67-c055-43cd-959c-77fc172d5664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommManager">
+      <UniqueIdentifier>{e570c4fb-6e90-40ed-97b8-309673863a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestManager">
+      <UniqueIdentifier>{c622086d-1680-44b2-96b2-c3e6313457ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestManager\ResultManager">
+      <UniqueIdentifier>{3272c8a5-1ceb-4ec6-8b2e-e813b0f6bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\SGP4">
+      <UniqueIdentifier>{fd312e60-bb10-4718-be7c-6750c6f01cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestDataGenerationManager">
+      <UniqueIdentifier>{8ca59593-a2e2-4057-97ef-91401a53abff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Enum">
+      <UniqueIdentifier>{a656aa00-17b7-4f1c-9f81-6bb4781ce5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enum">
+      <UniqueIdentifier>{79d7f41c-a8a7-44ad-a0bc-f49e570911c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{d0fca3bb-772a-45ca-986c-3c78b582a1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBase\SqlLite">
+      <UniqueIdentifier>{d120ddff-d9cb-44c1-af7f-49fa71043530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\CommChannels\TestingStationLocalSim">
+      <UniqueIdentifier>{fe9e5429-98dc-4317-a8fd-4b7ded16e92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Utils">
+      <UniqueIdentifier>{7d1e99d6-0e69-4b6b-b9e3-0927a10a9040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Logger">
+      <UniqueIdentifier>{c0ede42b-ba42-4709-aeea-1b67a096bf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibraries">
+      <UniqueIdentifier>{ddaf2747-82bc-4ab8-a5a5-b50b2ba6543a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Implementations\FileReader.cpp">
+      <Filter>Common\CommChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommManager\CommManager.cpp">
+      <Filter>CommManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TestManager\ResultManager\ResultManager.cpp">
+      <Filter>TestManager\ResultManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lab\Lab.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SGP4\CPP\AncasDataGenerator.cpp">
+      <Filter>Common\SGP4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SGP4\CPP\CatchDataGenerator.cpp">
+      <Filter>Common\SGP4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SGP4\CPP\DataGenerator.cpp">
+      <Filter>Common\SGP4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SGP4\CPP\SGP4.cpp">
+      <Filter>Common\SGP4</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TestDataGenerationManager\TestDataGenerationManager.cpp">
+      <Filter>TestDataGenerationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Database\DatabaseManager.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Database\SqlLite\shell.c">
+      <Filter>DataBase\SqlLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Database\SqlLite\sqlite3.c">
+      <Filter>DataBase\SqlLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Lab\LabWrapper.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CommChannels\TestingStationLocalSimCommChannel.cpp">
+      <Filter>Common\CommChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\SBO_ANCAS\SboAncas.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\SBO_ANCAS\SGP4SinglePointGenerator.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\CATCH\CATCH.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\CATCH\CompanionMatrixRootsFinder.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\CATCH\CompanionMatrixRootsFinderEigen.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Implementations\ANCAS\ANCAS.cpp">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\DataGeneration\SimpleDataGeneration.cpp">
+      <Filter>TestDataGenerationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TestManager\TestManager.cpp">
+      <Filter>TestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CommChannels\WinUdpCommChannel.cpp">
+      <Filter>Common\CommChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommManager\CommChannelFactory.cpp">
+      <Filter>CommManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\CommChannels\TcpCommChannel.cpp">
+      <Filter>Common\CommChannels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLibraries\INIH\ini.c">
+      <Filter>ExternalLibraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLibraries\INIH\cpp\INIReader.cpp">
+      <Filter>ExternalLibraries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TestManager\ResultManager\TestResultsToCsv.cpp">
+      <Filter>TestManager\ResultManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Common\CommChannels\ICommChannel.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\TcaCalculation.h">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\ITcaAlgorithm.h">
+      <Filter>Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\FileReader.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\TestRecipe.h">
+      <Filter>Common\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommManager\CommManager.h">
+      <Filter>CommManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestManager\ResultManager\ResultManager.h">
+      <Filter>TestManager\ResultManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lab\Lab.h">
+      <Filter>Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestDataGenerationManager\TestDataGenerationManager.h">
+      <Filter>TestDataGenerationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SGP4\CPP\AncasDataGenerator.h">
+      <Filter>Common\SGP4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SGP4\CPP\CatchDataGenerator.h">
+      <Filter>Common\SGP4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SGP4\CPP\DataGenerator.h">
+      <Filter>Common\SGP4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SGP4\CPP\SGP4.h">
+      <Filter>Common\SGP4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Enums\AlgorithmEnum.h">
+      <Filter>Common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Enums\TimeUnitEnum.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Enums\SatelliteDataFormatEnum.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Database\DatabaseManager.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Enums\TestStatus.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestManager\ResultManager\TestInfo.h">
+      <Filter>TestManager\ResultManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Database\SqlLite\sqlite3.h">
+      <Filter>DataBase\SqlLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Database\SqlLite\sqlite3ext.h">
+      <Filter>DataBase\SqlLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CommChannels\TestingStationLocalSimCommChannel.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\SBO_ANCAS\ISinglePointPropogator.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\SBO_ANCAS\SboAncas.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\SBO_ANCAS\SGP4SinglePointGenerator.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\CATCH\CATCH.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\CATCH\CompanionMatrixRootsFinder.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\CATCH\CompanionMatrixRootsFinderEigen.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Implementations\ANCAS\ANCAS.h">
+      <Filter>Common\CommChannels\TestingStationLocalSim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\DataGeneration\SimpleDataGeneration.h">
+      <Filter>TestDataGenerationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestManager\TestManager.h">
+      <Filter>TestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utils\SafeQueue.h">
+      <Filter>Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CommChannels\WinUdpCommChannel.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommManager\CommChannelFactory.h">
+      <Filter>CommManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CommChannels\TcpCommChannel.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Utils\Utilities.h">
+      <Filter>Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Logger\EventLogger.h">
+      <Filter>Common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLibraries\INIH\ini.h">
+      <Filter>ExternalLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLibraries\INIH\cpp\INIReader.h">
+      <Filter>ExternalLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Lab\AppVersion.h">
+      <Filter>Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestManager\ResultManager\TestResultsToCsv.h">
+      <Filter>TestManager\ResultManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\CommonStructures.h">
+      <Filter>Common\CommChannels</Filter>
+    </ClInclude>
+    <ClInclude Include="CatalogTestFormatEnum.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestingStationAppSettings.INI">
+      <Filter>Main</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\..\..\..\gpCatalog.txt">
+      <Filter>Lab</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

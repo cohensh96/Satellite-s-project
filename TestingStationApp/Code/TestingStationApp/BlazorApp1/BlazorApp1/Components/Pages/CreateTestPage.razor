@@ -1,0 +1,205 @@
+﻿@page "/testCreation"
+@rendermode InteractiveServer
+
+<PageTitle>Test creation</PageTitle>
+<h1 class="title">Test creation</h1>
+
+<div class="container mt-5">
+    <EditForm Model="@userTestDataWrapper" OnValidSubmit="HandleValidSubmit">
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="testName">Test Name:</label>
+                <InputText id="testName" class="form-control" @bind-Value="userTestDataWrapper.testName" required 
+                disabled="@(userTestDataWrapper.format == SatelliteDataFormat.Catalog)" 
+                placeholder="@(userTestDataWrapper.format == SatelliteDataFormat.Catalog ? "Catalog Test" : "Enter the test name...")"
+                           @oninput="ClearSubmissionMessage" />
+            </div>
+            <div class="invalid-feedback">
+                Please enter a test name.
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="numberOfPointsPerSegment">Number of Points Per Segment:</label>
+                <InputNumber id="numberOfPointsPerSegment" class="form-control" @bind-Value="userTestDataWrapper.numberOfPointsPerSegment" @oninput="ClearSubmissionMessage" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="catchRootsAlg">Catch Roots Algorithm:</label>
+                <InputSelect id="catchRootsAlg" class="form-control" @bind-Value="userTestDataWrapper.catchRootsAlg" @oninput="ClearSubmissionMessage">
+                    @foreach (var alg in Enum.GetValues(typeof(CatchRootsAlg)))
+                    {
+                        <option value="@alg">@alg</option>
+                    }
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="testedAlgorithm">Tested Algorithm:</label>
+                <InputSelect id="testedAlgorithm" class="form-control" @bind-Value="userTestDataWrapper.testedAlgorithm" @oninput="ClearSubmissionMessage">
+                    @foreach (var alg in Enum.GetValues(typeof(Algorithm)))
+                    {
+                        <option value="@alg">@alg</option>
+                    }
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="numberOfIterations">Number of Iterations:</label>
+                <InputNumber id="numberOfIterations" class="form-control" @bind-Value="userTestDataWrapper.numberOfIterations" @oninput="ClearSubmissionMessage" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="TminFactor">Tmin Factor:</label>
+                <InputSelect id="TminFactor" class="form-control" @bind-Value="userTestDataWrapper.TminFactor" @oninput="ClearSubmissionMessage">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                </InputSelect>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="timeIntervalSizeSec">Time Interval Size (Seconds):</label>
+                <InputNumber id="timeIntervalSizeSec" class="form-control" @bind-Value="userTestDataWrapper.timeIntervalSizeSec" @oninput="ClearSubmissionMessage" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="TOLdKM">Tolerance for Distance (km):</label>
+                <InputText id="TOLdKM" class="form-control" @bind-Value="userTestDataWrapper.TOLdKM" @oninput="ClearSubmissionMessage" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="TOLtSec">Tolerance for Time (Seconds):</label>
+                <InputText id="TOLtSec" class="form-control" @bind-Value="userTestDataWrapper.TOLtSec" @oninput="ClearSubmissionMessage" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group">
+                <label for="dataFormat">Output Format:</label>
+                <div class="radio-container">
+                    <InputRadioGroup id="dataFormat" @bind-Value="userTestDataWrapper.format" @onchange="@(e => { UpdateTestName(); ClearSubmissionMessage(); })">
+                        <InputRadio class="form-check-inline" Value="SatelliteDataFormat.XML" />
+                        <label class="form-check-label">XML</label>
+                        <InputRadio class="form-check-inline" Value="SatelliteDataFormat.Text" />
+                        <label class="form-check-label">Text</label>
+                        <InputRadio class="form-check-inline" Value="SatelliteDataFormat.Catalog" />
+                        <label class="form-check-label">Catalog</label>
+                    </InputRadioGroup>
+                </div>
+            </div>
+        </div>
+
+        @if (userTestDataWrapper.format == SatelliteDataFormat.XML)
+        {
+
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="xmlFile1">First orbiting element:</label>
+                    <InputFile id="xmlFile1" class="form-control" type="file" OnChange="(e) => HandleFileSelection(e, 1)" @oninput="ClearSubmissionMessage" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="xmlFile2">Second orbiting element:</label>
+                    <InputFile id="xmlFile2" class="form-control" type="file" OnChange="(e) => HandleFileSelection(e, 2)" @oninput="ClearSubmissionMessage" />
+                </div>
+            </div>
+        }
+
+        @if (userTestDataWrapper.format == SatelliteDataFormat.Text)
+        {
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="orbitingElementData1">Orbiting Element Data 1:</label>
+                    <textarea id="orbitingElementData1" class="form-control" rows="2" @bind="userTestDataWrapper.orbitingElementData1" placeholder="Enter the first object TLE in 2 lines..."></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="orbitingElementData2">Orbiting Element Data 2:</label>
+                    <textarea id="orbitingElementData2" class="form-control" rows="2" @bind="userTestDataWrapper.orbitingElementData2" placeholder="Enter the second object TLE in 2 lines..."></textarea>
+                </div>
+            </div>
+        }
+        @if (userTestDataWrapper.format == SatelliteDataFormat.Catalog)
+        {
+            <p>
+                <strong>
+                    To generate an automatic test list from the catalog file, fill in the required fields and click the button below.
+                </strong>
+            </p>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="dataFormat">Test Catalog Format:</label>
+                    <div class="radio-container">
+                        <InputRadioGroup id="dataFormat" @bind-Value="userTestDataWrapper.catalogTestFormat" @onchange="ClearSubmissionMessage">
+                            <InputRadio class="form-check-inline" Value="CatalogTestFormat.OneWithAll" />
+                            <label class="form-check-label">One With All</label>
+                            <InputRadio class="form-check-inline" Value="CatalogTestFormat.AllWithAll" />
+                            <label class="form-check-label">All With All</label>
+                        </InputRadioGroup>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <label for="catalogFile">Test Catalog File:</label>
+                    <InputFile id="catalogFile" class="form-control" type="file" OnChange="(e) => HandleFullCatalogFileSelection(e)" @oninput="ClearSubmissionMessage" />
+                </div>
+            </div>
+        }
+
+        @if (userTestDataWrapper.format == SatelliteDataFormat.Catalog)
+        {
+            <button type="submit" class="btn btn-primary" disabled="@isInProcess">
+                Create Tests from Catalog
+            </button>
+        }
+        else
+        {
+            <button type="submit" class="btn btn-primary" disabled="@isInProcess">
+                Create Test
+            </button>
+        }
+
+    </EditForm>
+
+@if (isInProcess)
+{
+    <div class="alert alert-warning text-dark d-flex align-items-center justify-content-center p-3 rounded shadow-sm mt-3 border border-warning" role="alert">
+        <div class="spinner-border text-warning spinner-border-sm me-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <span class="fw-bold fs-5">Please wait while loading the catalog data. This might take a short while...</span>
+    </div>
+}
+
+    <!-- Message display -->
+    @if (!string.IsNullOrEmpty(submissionMessage))
+    {
+        <div id="alertBox" class="alert @(submissionSuccess ? "alert-success" : "alert-danger") mt-3">
+            @submissionMessage
+        </div>
+    }
+
+</div>
