@@ -1,8 +1,0 @@
-22/02/2025-21:09:19::main::App Started
-22/02/2025-21:09:19::main::App Version: 1.0.7
-22/02/2025-21:09:19::AppConfigurationManager::Error parsing Config INI file!
-22/02/2025-21:09:19::AppConfigurationManager::Working with default configurations!
-22/02/2025-21:09:19::main::Factory created
-22/02/2025-21:09:19::TCPClient::ConnectToServer: socket created
-22/02/2025-21:09:19::TCPClient::ConnectToServer: Connected to server
-22/02/2025-21:09:19::MainProcess::Staring MainProcess
