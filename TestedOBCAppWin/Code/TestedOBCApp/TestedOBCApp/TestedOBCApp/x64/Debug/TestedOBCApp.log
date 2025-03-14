@@ -1,0 +1,41 @@
+﻿  TcpCommChannel.cpp
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../../Common/CommChannels/TcpCommChannel.cpp')
+  
+  WinUdpCommChannel.cpp
+  FullCatalogTestDataGeneration.cpp
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../../Common/DataGeneration/FullCatalogTestDataGeneration.cpp')
+  
+  SimpleDataGeneration.cpp
+C:\TestedOBCApp\Code\Common\DataGeneration\SimpleDataGeneration.cpp(50,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  TestedOBCLocalSimulation.cpp
+C:\TestedOBCApp\Code\TestedOBCApp\LocalSimulation\TestedOBCLocalSimulation.cpp(106,20): warning C4018: '<': signed/unsigned mismatch
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../LocalSimulation/TestedOBCLocalSimulation.cpp')
+  
+  Factory.cpp
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../Main/Factory.cpp')
+  
+  Main.cpp
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../Main/Main.cpp')
+  
+  MainProcess.cpp
+  TestManager.cpp
+C:\TestedOBCApp\Code\Common\CommChannels\TcpCommChannel.h(20,12): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+  (compiling source file '../../TestManager/TestManager.cpp')
+  
+  ChronoBasedTimer.cpp
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244: 'initializing': conversion from '_Rep' to 'long', possible loss of data
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         with
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         [
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:             _Rep=__int64
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         ]
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244: 'initializing': conversion from '_Rep' to 'long', possible loss of data
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         with
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         [
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:             _Rep=__int64
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         ]
+  Generating Code...

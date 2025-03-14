@@ -1,0 +1,77 @@
+﻿  AncasDataGenerator.cpp
+  CatchDataGenerator.cpp
+  DataGenerator.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  SGP4.cpp
+C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2231,22): warning C4477: 'sscanf_s' : format string '%6ld' requires an argument of type 'long *', but variadic argument 16 has type 'int64_t *'
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2231,22):
+      consider using '%lld' in the format string
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2231,22):
+      consider using '%I64d' in the format string
+  
+C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2245,24): warning C4477: 'sscanf_s' : format string '%6ld' requires an argument of type 'long *', but variadic argument 10 has type 'int64_t *'
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2245,24):
+      consider using '%lld' in the format string
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2245,24):
+      consider using '%I64d' in the format string
+  
+C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2259,24): warning C4477: 'sscanf_s' : format string '%6ld' requires an argument of type 'long *', but variadic argument 10 has type 'int64_t *'
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2259,24):
+      consider using '%lld' in the format string
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2259,24):
+      consider using '%I64d' in the format string
+  
+C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2276,24): warning C4477: 'sscanf_s' : format string '%6ld' requires an argument of type 'long *', but variadic argument 10 has type 'int64_t *'
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2276,24):
+      consider using '%lld' in the format string
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2276,24):
+      consider using '%I64d' in the format string
+  
+C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2290,24): warning C4477: 'sscanf_s' : format string '%6ld' requires an argument of type 'long *', but variadic argument 10 has type 'int64_t *'
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2290,24):
+      consider using '%lld' in the format string
+      C:\TestedOBCApp\SGP4\CPP\SGP4.cpp(2290,24):
+      consider using '%I64d' in the format string
+  
+  TcpCommChannel.cpp
+  WinUdpCommChannel.cpp
+  FullCatalogTestDataGeneration.cpp
+C:\TestedOBCApp\Code\Common\DataGeneration\FullCatalogTestDataGeneration.cpp(51,63): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\TestedOBCApp\Code\Common\DataGeneration\FullCatalogTestDataGeneration.cpp(161,57): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  SimpleDataGeneration.cpp
+C:\TestedOBCApp\Code\Common\DataGeneration\SimpleDataGeneration.cpp(50,26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  ResultsLogger.cpp
+  INIReader.cpp
+  ANCAS.cpp
+  CATCH.cpp
+  CompanionMatrixRootsFinder.cpp
+  CompanionMatrixRootsFinderEigen.cpp
+  FileReader.cpp
+  SboAncas.cpp
+  SboAncasEquallySpacedPoints.cpp
+  SGP4SinglePointGenerator.cpp
+  CommManager.cpp
+  TestedOBCLocalSimulation.cpp
+C:\TestedOBCApp\Code\TestedOBCApp\LocalSimulation\TestedOBCLocalSimulation.cpp(106,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  AppConfigurationManager.cpp
+  Factory.cpp
+  Main.cpp
+  MainProcess.cpp
+  TestManager.cpp
+C:\TestedOBCApp\Code\TestedOBCApp\TestManager\TestManager.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
+  ChronoBasedTimer.cpp
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244: 'initializing': conversion from '_Rep' to 'long', possible loss of data
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         with
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         [
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:             _Rep=__int64
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(20,27): warning C4244:         ]
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244: 'initializing': conversion from '_Rep' to 'long', possible loss of data
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         with
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         [
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:             _Rep=__int64
+C:\TestedOBCApp\Code\TestedOBCApp\Timer\ChronoBasedTimer.cpp(31,27): warning C4244:         ]
+  Generating Code...
+  ini.c
+  TestedOBCApp.vcxproj -> C:\TestedOBCApp\Code\TestedOBCApp\TestedOBCApp\Debug\TestedOBCApp.exe

@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TestedOBCApp\\Code\\TestedOBCApp\\TestedOBCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B492DB60-F4FC-4636-A7D5-228C7F8EE3F3}|TestedOBCApp\\TestedOBCApp.vcxproj|C:\\TestedOBCApp\\SGP4\\CPP\\SGP4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B492DB60-F4FC-4636-A7D5-228C7F8EE3F3}|TestedOBCApp\\TestedOBCApp.vcxproj|C:\\TestedOBCApp\\Code\\TestedOBCApp\\TestedOBCApp\\TestedOBCApp\\Resource.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B492DB60-F4FC-4636-A7D5-228C7F8EE3F3}|TestedOBCApp\\TestedOBCApp.vcxproj|solutionrelative:TestedOBCApp\\Resource.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B492DB60-F4FC-4636-A7D5-228C7F8EE3F3}|TestedOBCApp\\TestedOBCApp.vcxproj|C:\\TestedOBCApp\\Code\\Common\\CommChannels\\TcpCommChannel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B492DB60-F4FC-4636-A7D5-228C7F8EE3F3}|TestedOBCApp\\TestedOBCApp.vcxproj|C:\\TESTEDOBCAPP\\CODE\\TESTEDOBCAPP\\MAIN\\RESOURCEMONITOR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resource.rc",
+              "DocumentMoniker": "C:\\TestedOBCApp\\Code\\TestedOBCApp\\TestedOBCApp\\TestedOBCApp\\Resource.rc",
+              "RelativeDocumentMoniker": "TestedOBCApp\\Resource.rc",
+              "ToolTip": "C:\\TestedOBCApp\\Code\\TestedOBCApp\\TestedOBCApp\\TestedOBCApp\\Resource.rc",
+              "RelativeToolTip": "TestedOBCApp\\Resource.rc",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-14T11:27:21.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TcpCommChannel.cpp",
+              "DocumentMoniker": "C:\\TestedOBCApp\\Code\\Common\\CommChannels\\TcpCommChannel.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Common\\CommChannels\\TcpCommChannel.cpp",
+              "ToolTip": "C:\\TestedOBCApp\\Code\\Common\\CommChannels\\TcpCommChannel.cpp",
+              "RelativeToolTip": "..\\..\\Common\\CommChannels\\TcpCommChannel.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T11:15:41.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResourceMonitor.h",
+              "DocumentMoniker": "C:\\TestedOBCApp\\Code\\TestedOBCApp\\Main\\ResourceMonitor.h",
+              "RelativeDocumentMoniker": "..\\Main\\ResourceMonitor.h",
+              "ToolTip": "C:\\TestedOBCApp\\Code\\TestedOBCApp\\Main\\ResourceMonitor.h",
+              "RelativeToolTip": "..\\Main\\ResourceMonitor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-14T11:12:23.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SGP4.cpp",
+              "DocumentMoniker": "C:\\TestedOBCApp\\SGP4\\CPP\\SGP4.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\SGP4\\CPP\\SGP4.cpp",
+              "ToolTip": "C:\\TestedOBCApp\\SGP4\\CPP\\SGP4.cpp",
+              "RelativeToolTip": "..\\..\\..\\SGP4\\CPP\\SGP4.cpp",
+              "ViewState": "AgIAAK4IAAAAAAAAAAAAwLIIAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T11:11:19.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+26/02/2025-14:16:39::main::App Started
+26/02/2025-14:16:39::main::App Version: 1.0.7
+26/02/2025-14:16:39::AppConfigurationManager::Error parsing Config INI file!
+26/02/2025-14:16:39::AppConfigurationManager::Working with default configurations!
+26/02/2025-14:16:39::main::Factory created
+26/02/2025-14:16:39::TCPClient::ConnectToServer: socket created
+26/02/2025-14:16:39::TCPClient::ConnectToServer: Connected to server
+26/02/2025-14:16:39::MainProcess::Staring MainProcess
+26/02/2025-14:17:08::MainProcess::Test Received. Staring test - 10
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::Lab::Test Data Generated
+26/02/2025-14:17:08::CommManager::SendTestResults::Results Message sent. For test - 10
+26/02/2025-14:17:08::MainProcess::Test 10 Completed
+26/02/2025-14:17:09::MainProcess::Test Received. Staring test - 11
+26/02/2025-14:17:09::Lab::Test Data Generated
+26/02/2025-14:17:09::Lab::Test Data Generated
+26/02/2025-14:17:09::Lab::Test Data Generated
+26/02/2025-14:17:09::Lab::Test Data Generated
+26/02/2025-14:17:09::Lab::Test Data Generated
+26/02/2025-14:17:10::Lab::Test Data Generated
+26/02/2025-14:17:10::Lab::Test Data Generated
+26/02/2025-14:17:10::Lab::Test Data Generated
+26/02/2025-14:17:10::Lab::Test Data Generated
+26/02/2025-14:17:10::Lab::Test Data Generated
+26/02/2025-14:17:10::CommManager::SendTestResults::Results Message sent. For test - 11
+26/02/2025-14:17:10::MainProcess::Test 11 Completed
+26/02/2025-14:17:11::MainProcess::Test Received. Staring test - 12
+26/02/2025-14:17:11::Lab::Test Data Generated
+26/02/2025-14:17:11::Lab::Test Data Generated
+26/02/2025-14:17:11::Lab::Test Data Generated
+26/02/2025-14:17:11::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::Lab::Test Data Generated
+26/02/2025-14:17:12::CommManager::SendTestResults::Results Message sent. For test - 12
+26/02/2025-14:17:12::MainProcess::Test 12 Completed
