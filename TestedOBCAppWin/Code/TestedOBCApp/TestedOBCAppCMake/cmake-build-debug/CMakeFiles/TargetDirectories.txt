@@ -1,3 +1,0 @@
-/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles/TestedOBCApp.dir
-/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
