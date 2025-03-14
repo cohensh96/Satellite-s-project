@@ -91,8 +91,6 @@ add_executable(${PROJECT_NAME}
                 ../../ExternalLibraries/INIH/cpp/INIReader.cpp
 
                 ../../Common/Logger/ResultsLogger.cpp
-        ../Main/ResourceMonitor.cpp
-        ../Main/ResourceMonitor.h
 )
 
 # Add preprocessor define(s)

@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+RM = /home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake"
+CMAKE_SOURCE_DIR = /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/TestedOBCApp.dir/clean
 CMakeFiles/TestedOBCApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target TestedOBCApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target TestedOBCApp"
 .PHONY : CMakeFiles/TestedOBCApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestedOBCApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles" 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestedOBCApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/TestedOBCApp.dir/rule
 
 # Convenience name for target.

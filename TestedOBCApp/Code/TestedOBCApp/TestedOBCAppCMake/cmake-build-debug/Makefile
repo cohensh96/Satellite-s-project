@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+RM = /home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake"
+CMAKE_SOURCE_DIR = /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+	/home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/shircohen/.cache/JetBrains/RemoteDev/dist/c44dfc3b77179_CLion-2024.3.4-aarch64/bin/cmake/linux/aarch64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles" "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shircohen/Desktop/פרויקט סוף חלק ב /Phase B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestedOBCAppCMake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,653 +129,629 @@ TestedOBCApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/build
 .PHONY : TestedOBCApp/fast
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.c.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.c.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.cpp.s
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.o: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.o
 
 # target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.o
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.o
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.o
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.i
-
-# target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.i
-
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.s
-
-# target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.cpp.s
-
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.o: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.o
-
-# target to build an object file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.o
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.o
-
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.i: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.i: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.i
 
 # target to preprocess a source file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.i
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.i
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.i
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.i
 
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.s: Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.s: home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.s
 
 # target to generate assembly for a file
-Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.s
-.PHONY : Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.cpp.s
+home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestedOBCApp.dir/build.make CMakeFiles/TestedOBCApp.dir/home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.s
+.PHONY : home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.cpp.s
 
 # Help Target
 help:
@@ -786,87 +762,84 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TestedOBCApp"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/CommChannels/TcpCommChannel.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/DataGeneration/SimpleDataGeneration.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Common/Logger/ResultsLogger.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/cpp/INIReader.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/ExternalLibraries/INIH/ini.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/ANCAS/ANCAS.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CATCH.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/FileReader.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncas.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/CommManager/CommManager.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/AppConfigurationManager.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Factory.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/Main.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/MainProcess.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Main/ResourceMonitor.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/TestManager/TestManager.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/Code/TestedOBCApp/Timer/ChronoBasedTimer.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/AncasDataGenerator.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/CatchDataGenerator.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/DataGenerator.s"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.o"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.i"
-	@echo "... Users/shircohen/Desktop/פרויקט_סוף_חלק_ב_/Phase_B/TestedOBC/TestedOBCApp/SGP4/CPP/SGP4.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/CommChannels/TcpCommChannel.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/FullCatalogTestDataGeneration.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/DataGeneration/SimpleDataGeneration.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Common/Logger/ResultsLogger.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/cpp/INIReader.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/ExternalLibraries/INIH/ini.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/ANCAS/ANCAS.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CATCH.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinder.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/CATCH/CompanionMatrixRootsFinderEigen.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/FileReader.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SGP4SinglePointGenerator.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncas.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/Implementations/SBO_ANCAS/SboAncasEquallySpacedPoints.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/CommManager/CommManager.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/LocalSimulation/TestedOBCLocalSimulation.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/AppConfigurationManager.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Factory.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/Main.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Main/MainProcess.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/TestManager/TestManager.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/Code/TestedOBCApp/Timer/ChronoBasedTimer.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/AncasDataGenerator.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/CatchDataGenerator.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/DataGenerator.s"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.o"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.i"
+	@echo "... home/shircohen/Desktop/Satellite-s-project-main/TestedOBCAppWin/SGP4/CPP/SGP4.s"
 .PHONY : help
 
 

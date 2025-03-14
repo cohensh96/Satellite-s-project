@@ -3,7 +3,6 @@
 #include <chrono>
 #include <thread>
 #include "EventLogger.h"
-#include "ResourceMonitor.h"
 // #include <sys/resource.h>
 
 extern bool g_keepRunning;

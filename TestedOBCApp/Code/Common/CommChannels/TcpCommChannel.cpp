@@ -9,7 +9,7 @@
 #include <cstring>  // memset, memcpy
 #ifdef __APPLE__
     #include <sys/filio.h>  // macOS / BSD systems
-#else
+#elif defined(__linux__)
     #include <sys/ioctl.h>  // Linux (Raspberry Pi)
 #endif
 
@@ -56,7 +56,9 @@
 //-----------------------------------------------------
 // Set message size
 //-----------------------------------------------------
-static const unsigned int SO_MAX_MSG_SIZE = 65000;
+#ifndef SO_MAX_MSG_SIZE
+#define SO_MAX_MSG_SIZE 65000
+#endif
 
 // (according to MAX_MESSAGE_SIZE definition in ICommChannel.h)
 //**************************************************************
