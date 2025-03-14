@@ -1,0 +1,101 @@
+03/03/2025-15:31:36::main::App Started
+03/03/2025-15:31:36::main::App Version: 1.0.7
+03/03/2025-15:31:36::AppConfigurationManager::Error parsing Config INI file!
+03/03/2025-15:31:36::AppConfigurationManager::Working with default configurations!
+03/03/2025-15:31:36::main::Factory created
+03/03/2025-15:31:36::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:36::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:36::Factory::Failed to create/open the socket
+03/03/2025-15:31:36::MainProcess::Staring MainProcess
+03/03/2025-15:31:36::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:36::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:36::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:36::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:36::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:36::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:36::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:37::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:37::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:37::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:37::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:37::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:37::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:37::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:37::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:37::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:37::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:38::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:38::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:39::TCPClient::ConnectToServer: Failed to connect => 111
+03/03/2025-15:31:39::TCPClient::ConnectToServer: socket created
+03/03/2025-15:31:40::TCPClient::ConnectToServer: Failed to connect => 111

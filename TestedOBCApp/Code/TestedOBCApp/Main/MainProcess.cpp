@@ -4,7 +4,7 @@
 #include <thread>
 #include "EventLogger.h"
 #include "ResourceMonitor.h"
-#include <sys/resource.h>
+// #include <sys/resource.h>
 
 extern bool g_keepRunning;
 
@@ -42,15 +42,15 @@ void MainProcess::Process()
 			EventLogger::getInstance().log(logString, "MainProcess");
 			std::cout << logString << std::endl;
 
-			// Printing resource limits before running the test
-			std::cout << "----------------------------" << std::endl;
-			std::cout << "Before running the test: " << std::endl;
-			ResourceMonitor::PrintResourceLimits();
-			ResourceMonitor::PrintCurrentUsage();
+			// // Printing resource limits before running the test
+			// std::cout << "----------------------------" << std::endl;
+			// std::cout << "Before running the test: " << std::endl;
+			// ResourceMonitor::PrintResourceLimits();
+			// ResourceMonitor::PrintCurrentUsage();
 
-			// Measuring performance before running the test
-			struct rusage usageBefore={};
-			getrusage(RUSAGE_SELF, &usageBefore);
+			// // Measuring performance before running the test
+			// struct rusage usageBefore={};
+			// getrusage(RUSAGE_SELF, &usageBefore);
 
 			//run the test
 			//m_testManager->runTest()
@@ -59,16 +59,16 @@ void MainProcess::Process()
 			//wait for the test to end
 
 			// Measuring performance after running the test
-			struct rusage usageAfter={};
-			getrusage(RUSAGE_SELF, &usageAfter);
-
-			// Printing performance data after running the test and comparing the differences
-			std::cout << "----------------------------" << std::endl;
-			std::cout << "After running the test: " << std::endl;
-			ResourceMonitor::PrintCurrentUsage();
-			ResourceMonitor::PrintUsageDiff(usageBefore, usageAfter);
-			std::cout << "----------------------------" << std::endl;
-
+			// struct rusage usageAfter={};
+			// getrusage(RUSAGE_SELF, &usageAfter);
+			//
+			// // Printing performance data after running the test and comparing the differences
+			// std::cout << "----------------------------" << std::endl;
+			// std::cout << "After running the test: " << std::endl;
+			// ResourceMonitor::PrintCurrentUsage();
+			// ResourceMonitor::PrintUsageDiff(usageBefore, usageAfter);
+			// std::cout << "----------------------------" << std::endl;
+			//
 
 			//manage the test results
 			resultsLogger->log(testResults, params.TOLd, params.TOLt);
