@@ -77,8 +77,11 @@ A cost-effective alternative to space-grade OBCs used for algorithm deployment a
 - Cross-platform **TCP/IP** over Ethernet or Wi-Fi.
 - Custom protocol with **CRC-based error detection**.
 
-### 🖼️ Diagram
-![System Architecture](https://github.com/cohensh96/Satellite-s-project/blob/main/diagram/system-overview.png)
+### 🖼️ Diagram 1:	The Testing Station App Package Diagram
+![System Architecture](https://github.com/cohensh96/Satellite-s-project/blob/main/TestingStationArch.png)
+
+### 🖼️ Diagram 2:	The Tested OBC App Package Diagram
+![System Architecture](https://github.com/cohensh96/Satellite-s-project/blob/main/TestedOBCArch.png)
 
 ---
 
