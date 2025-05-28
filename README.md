@@ -3,7 +3,7 @@
 
 This project implements and evaluates **Space Situational Awareness (SSA)** algorithms for detecting potential collisions between satellites. The project is based on cutting-edge research and was developed as a final-year capstone project in Software Engineering.
 
-👉 [📽️ Watch the project demo video]([https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4))  
+👉 [📽️ Watch the project demo video](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4)  
 👉 [📂 Project Repository](https://github.com/cohensh96/Satellite-s-project/tree/main)
 
 ---
@@ -50,6 +50,11 @@ This project implements and evaluates **Space Situational Awareness (SSA)** algo
 ## 🖥️ Hardware & Technologies
 
 ### 🔧 **Tested OBC**: Raspberry Pi 5
+
+A cost-effective alternative to space-grade OBCs used for algorithm deployment and testing.
+
+![Raspberry Pi 5](https://www.raspberrypi.com/documentation/computers/images/raspberry-pi-5.png)
+
 - **CPU**: ARM Cortex-A76, 2.4GHz
 - **RAM**: 8GB LPDDR4X
 - **Power**: ~7W
@@ -153,7 +158,7 @@ This project was completed in collaboration with **Dr. Elad Dannenberg**, a lead
 
 - 📄 Phase A Report  
 - 📄 Phase B Report  
-- 📽️ [Project Demo Video]([https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4))
+- 📽️ [Project Demo Video](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4)
 
 ---
 
