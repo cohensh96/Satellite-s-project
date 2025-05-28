@@ -53,7 +53,7 @@ This project implements and evaluates **Space Situational Awareness (SSA)** algo
 
 A cost-effective alternative to space-grade OBCs used for algorithm deployment and testing.
 
-![Raspberry Pi 5](https://www.raspberrypi.com/documentation/computers/images/raspberry-pi-5.png)
+![Raspberry Pi 5](https://raw.githubusercontent.com/cohensh96/Satellite-s-project/refs/heads/main/raspberry-pi-5-features.jpg.webp)
 
 - **CPU**: ARM Cortex-A76, 2.4GHz
 - **RAM**: 8GB LPDDR4X
