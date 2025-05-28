@@ -3,7 +3,7 @@
 
 This project implements and evaluates **Space Situational Awareness (SSA)** algorithms for detecting potential collisions between satellites. The project is based on cutting-edge research and was developed as a final-year capstone project in Software Engineering.
 
-👉 [📽️ Watch the project demo video](https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4)  
+👉 [📽️ Watch the project demo video]([https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4)  
 👉 [📂 Project Repository](https://github.com/cohensh96/Satellite-s-project/tree/main)
 
 ---
@@ -153,7 +153,7 @@ This project was completed in collaboration with **Dr. Elad Dannenberg**, a lead
 
 - 📄 Phase A Report  
 - 📄 Phase B Report  
-- 📽️ [Project Demo Video](https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4)
+- 📽️ [Project Demo Video]([https://github.com/cohensh96/Satellite-s-project/assets/ProjectUserGuideVideo.mp4](https://github.com/cohensh96/Satellite-s-project/blob/main/ProjectUserGuideVideo.MP4)
 
 ---
 
